@@ -1,0 +1,16 @@
+*
+{
+	--tblr-dropdown-link-active-color: red;
+	--tblr-navbar-active-border-color: red;
+}
+
+.dropdown-item.active,
+.dropdown-item:active
+{
+	color:var(--tblr-dropdown-link-active-color);
+	text-decoration:none;
+	border-color: var(--tblr-dropdown-link-active-color);
+	border-bottom: 1px;
+	border-style: solid;
+	background-color:var(--tblr-dropdown-link-active-bg)
+}
